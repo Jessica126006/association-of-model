@@ -1,5 +1,5 @@
 class AddTimestampToTeacher < ActiveRecord::Migration
   def change
-    add_column :teacher, :time, :timestamp
+    add_column :teachers, :time, :timestamp
   end
 end
